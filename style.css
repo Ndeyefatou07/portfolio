@@ -27,6 +27,7 @@ box-sizing: border-box;}
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
 }
+
 .btn{
     width: 38%;
     padding: 1.25rem 2.25rem;
@@ -78,6 +79,24 @@ h2{
     color: black;
 
 }
-.progress .skill{
+.skills .progress .skill{
+    display: block;
+    margin: 0 0 6px 0;
+}
+.resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+.informations li span{
+    color: black;
     
 }
+.informations{
+    list-style: none;
+}
+   

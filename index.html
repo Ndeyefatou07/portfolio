@@ -17,15 +17,18 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 ">
               <li class="nav-item">
-                <a class="nav-link "  href="#home">Accueil</a>
+                <a class="nav-link "  href="#home"><i class="fa-solid fa-house "></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link "  href="#About">A propos</a>
+                <a class="nav-link "  href="#About"><i class="fa-solid fa-user"></i></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Skills">Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Expériences">Expériences</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link "  href="#Contact">Contact</a>
@@ -45,7 +48,7 @@
             <div class="col-lg text-center">
               <h1 class="fw-bolder"><span >N</span>deye <span >F</span>atou <span>N</span>iang</h1>
                 <hr class="divider">
-              <p class="fw-bolder text-primary">Je suis stagiaire <span>dévellopeur</span> </p>
+              <p class="fw-bolder text-primary">Je suis stagiaire <span>développeuse</span> </p>
               <div class="col gap-3 py-5">
               <a class="btn btn-primary btn-lg   px-5 py-3 me-sm-3 fw-bolder" href="#Contact">Contact Me </a>
               <a class="btn btn-outline-warning btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projets</a>
@@ -58,14 +61,37 @@
       <section id="About" class="About my-4">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col-6">
               <h2 class="text-uppercase text-decoration-underline">Qui suis-je?</h2>
             <p>Je m'appelle Ndeye Fatou Niang,étudiante en innovation management et technologies numériques à Supdeco. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            <a class="btn btn-outline-primary">Telecharger CV</a>
+            <button type="button" class="btn btn-primary">Télécharger Cv</button>
             </div>
-            <div class="col">
+            <div class="col-6">
               <h2 class="text-decoration-underline">Informations personnelles</h2>
-              <address class="gap-3" > <label for="Nom" class="text-decoration-underline">Nom</label>: Ndeye Fatou Niang <br><label for="Date" class="text-decoration-underline">Date de naissance</label>:  Née le 07/12/2001  <br><label for="Adresse" class="text-decoration-underline">Adresse</label>:  Grand Mbao <br><label for="mail" class="text-decoration-underline">Email</label>: ndeyefatoun126@gmail.com</address>
+              <ul class="informations">
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <strong>Date de naissance:</strong>
+                  <span>07 Décembre 2001</span>
+
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <strong>Email:</strong>
+                  <span>ndeyefatoun126@gmail.com</span>
+
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <strong>Téléphone:</strong>
+                  <span>+221 775036065</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <strong>Degrée:</strong>
+                  <span>Licence</span>
+                </li>
+              </ul>
               <div class="d-flex justify-content-center gap-4">
                 <a class="" href=""><i class="fa-brands fa-linkedin fa-bounce"></i></a>
                 <a href=""><i class="fa-brands fa-github fa-bounce"></i></a>
@@ -79,13 +105,9 @@
       </section>
       <section id="Skills">
         <div class="container">
-          <div class="row">
+          <div class="row skills-content">
             <div class="col-lg-6">
-              <div class="progress">
-                <span class="skill">HTML
-                  <i class="val">90%</i>
-                </span>
-              </div>
+              
             </div>
 
           </div>
@@ -96,18 +118,75 @@
         <!-- Contact form -->
         <div class="container px-4 px-lg-5">
           <div class="row gx-4 justify-content-center rounded-4">
-            <div class="col text-center mb-4">
-              <a href="" class=""><i class="fa-solid fa-message "></i></a>
-            </div>
-            <div class="col-lg-6 mt-5">
-              <form action="" id="contactForm">
-                <div class=""></div>
-                <input id="name" type="text" class="form-control" placeholder="Votre nom" data-bs-validations="required">
+              <div class="col-lg-6 mt-5 text-center">
+                <a href="#" class=""><i class="fa-solid fa-message text-center"></i></a>
+                <form action="" id="contactForm" >
+                  <div class="mb-3">
+                    <label for="FormControlInput1" class="form-label">Nom Complet</label>
+                    <input type="text" class="form-control" id="FormControlInput1" placeholder="Votre nom...">
+                  </div>
+                  <div class="mb-3">
+                    <label for="FormControlInput2" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="FormControlInput2" placeholder="Votre mail...">
+                  </div>
+                  <div class="mb-3">
+                    <label for="FormControlInput3" class="form-label">Objet</label>
+                    <input type="text" class="form-control" id="FormControlInput3" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <label for="FormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="FormControlTextarea1" rows="4"></textarea>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-outline-warning text-primary">Envoyer</button>
+                  </div>
+                </div> 
               </form>
-
             </div>
-            
+          </div>
+        </div>
+      </section>
+      <section id="Expériences">
+        <div class="container-fluid">
+          <div class="row my-5">
+            <div class="col-lg-6">
+              <h3 class="text-uppercase">Expériences</h3>
+              <div class="resume-item pb-0">
+                <h4 class="mb-3">stagiaire développeuse web</h4>
+                <h5>Présent</h5>
+                <p>Volkeno, Grand Yoff</p>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
 
+              </div>
+              <div class="resume-item pb-0">
+                <h4 class="mb-3">stagiaire développeuse web</h4>
+                <h5>2021-2022</h5>
+                <p>BHS, Dakar</p>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="text-uppercase">Formations</h3>
+              <div class="resume-item pt-3">
+                <h4 class="mb-3">Licence</h4>
+                <h5>2020-2023</h5>
+                <p>Supdeco, Point-E</p>
+              </div>
+              <div class="resume-item pt-3">
+                <h4 class="mb-3">Baccalauréat Scientifique</h4>
+                <h5>2019</h5>
+                <p>Dakaredu, Point-E</p>
+              </div>
+            </div>
           </div>
         </div>
 
