@@ -4,57 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d6f0565cd3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Mon portfolio</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row hero">
-            <!-- IMAGE -->
-           <div class="col-md-4">
-                <img class="img-fluid" src="bootstrap-5.3.0-alpha3-dist/img/prince-akachi-J1OScm_uHUQ-unsplash.jpg" alt="">
+      <nav class="navbar navbar-expand-lg navbar-light py-2">
+        <div class="container-fluid px-2 gap-5">
+          <a class="navbar-brand" href="#Home">Mon Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="#home">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="#About">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skills">Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="#Contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="#">Projets</a>
+              </li>
+             
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section id="home" class="py-2 d-flex flex-column justify-content-center align-items-center">
+        <div class="home-container px-2">
+          <div class="row gx-5  ">
+            <div class="col-lg text-center">
+              <h1 class="fw-bolder"><span >N</span>deye <span >F</span>atou <span>N</span>iang</h1>
+                <hr class="divider">
+              <p class="fw-bolder text-primary">Je suis stagiaire <span>dévellopeur</span> </p>
+              <div class="col gap-3 py-5">
+              <a class="btn btn-primary btn-lg   px-5 py-3 me-sm-3 fw-bolder" href="#Contact">Contact Me </a>
+              <a class="btn btn-outline-warning btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projets</a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section id="About" class="About my-4">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-uppercase text-decoration-underline">Qui suis-je?</h2>
+            <p>Je m'appelle Ndeye Fatou Niang,étudiante en innovation management et technologies numériques à Supdeco. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <a class="btn btn-outline-primary">Telecharger CV</a>
+            </div>
+            <div class="col">
+              <h2 class="text-decoration-underline">Informations personnelles</h2>
+              <address class="gap-3" > <label for="Nom" class="text-decoration-underline">Nom</label>: Ndeye Fatou Niang <br><label for="Date" class="text-decoration-underline">Date de naissance</label>:  Née le 07/12/2001  <br><label for="Adresse" class="text-decoration-underline">Adresse</label>:  Grand Mbao <br><label for="mail" class="text-decoration-underline">Email</label>: ndeyefatoun126@gmail.com</address>
+              <div class="d-flex justify-content-center gap-4">
+                <a class="" href=""><i class="fa-brands fa-linkedin fa-bounce"></i></a>
+                <a href=""><i class="fa-brands fa-github fa-bounce"></i></a>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+
+      </section>
+      <section id="Skills">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="progress">
+                <span class="skill">HTML
+                  <i class="val">90%</i>
+                </span>
+              </div>
             </div>
 
-            <!-- NAVBAR -->
-            <div class="col-md-8 d-block ">
-                <nav class="cc-navbar navbar navbar-expand-lg   text-uppercase">
-                    <div class="container-fluid">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto ">
-                          <li class="nav-item">
-                            <a class="nav-link px-4 "  href="index.html">Accueil</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link px-4" href="Apropos.html">A propos</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link px-4" href="#">Mes projets</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link px-4" href="#">Contact</a>
-                          </li>
-                         
-                          
-                        </ul>
-                      </div>
-                    </div>
-                </nav>
-                    <!-- Contenu -->
-                <div class="content ">
-                    <h1 class="py-5">Bienvenue sur mon portfolio</h1>
-                    <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis lacus eget justo
-                    ullamcorper elementum. Vivamus sagittis, ante in dignissim eleifend, nunc elit volutpat massa,
-                    at varius justo ex non libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                    posuere cubilia Curae; Proin ut nibh in tellus fermentum vulputate.</p>
-                    <button class="btn btn-primary rounded-0 px-5 " >A propos</button>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
+
+      </section>
+      <section id="Contact">
+        <!-- Contact form -->
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 justify-content-center rounded-4">
+            <div class="col text-center mb-4">
+              <a href="" class=""><i class="fa-solid fa-message "></i></a>
+            </div>
+            <div class="col-lg-6 mt-5">
+              <form action="" id="contactForm">
+                <div class=""></div>
+                <input id="name" type="text" class="form-control" placeholder="Votre nom" data-bs-validations="required">
+              </form>
+
+            </div>
+            
+
+          </div>
+        </div>
+
+      </section>
            
                 
     <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
