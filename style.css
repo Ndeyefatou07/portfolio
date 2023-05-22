@@ -79,10 +79,6 @@ h2{
     color: black;
 
 }
-.skills .progress .skill{
-    display: block;
-    margin: 0 0 6px 0;
-}
 .resume-item h4 {
     line-height: 18px;
     font-size: 18px;
@@ -99,4 +95,4 @@ h2{
 .informations{
     list-style: none;
 }
-   
+ 
