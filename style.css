@@ -20,6 +20,9 @@ box-sizing: border-box;}
     height: 100%;
     text-align: center;
 }
+#About img{
+    box-shadow: ;
+}
 
 #home p span {
     color: #fff;
@@ -110,10 +113,32 @@ margin-bottom: 10px;
  .section-bg{
     background-color: white;
  }
- .skills .progress .skill{
-    display: block;
+ .progress {
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    display: flex;
+    color: black;
+
+ }
+ .Services h1{ 
+    font-size: 2.5rem;
+    font-weight: 300;
     color: black;
  }
- .skill{
-    background-color: cornflowerblue;
- }
+  .card{
+    border: none;
+    outline: none;
+  }
+.card p{
+    color: gray;
+}
+.circle{
+    color: black;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding:12px;
+}
+.circle:hover{background-color: #050d18;}
