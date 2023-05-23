@@ -26,6 +26,7 @@ box-sizing: border-box;}
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
+    margin-right: 5px;
 }
 .Probut{
     width: 38%;
@@ -119,19 +120,17 @@ margin-bottom: 10px;
     color: black;
     
 }
+.EXP:hover{
+    background-color:beige;
+}
+.FORM:hover{
+    background-color:aliceblue;
+}
 .informations{
     list-style: none;
 }
  .section-bg{
     background-color: white;
- }
- .progress {
-    justify-content: flex-start;
-    position: relative;
-    align-items: center;
-    display: flex;
-    color: black;
-
  }
  .Services h1{ 
     font-size: 2.5rem;
