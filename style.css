@@ -3,25 +3,14 @@
 padding:0;
 margin: 0;
 box-sizing: border-box;}
+/* Accueil */
 #home{  
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bootstrap-5.3.0-alpha3-dist/img/prince-akachi-J1OScm_uHUQ-unsplash.jpg") top center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-}
-
-.navbar{
-    color: white;
-    font-family: 'Merriweather', serif;
-}
-#About{
-    height: 100%;
-    text-align: center;
-}
-#About img{
-    box-shadow: ;
+   
 }
 
 #home p span {
@@ -30,13 +19,28 @@ box-sizing: border-box;}
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
 }
-
-.btn{
+/* button Contacter nous */
+.Coordbut{
     width: 38%;
-    padding: 1.25rem 2.25rem;
+    padding: 1.25rem 1.25rem;
     font-size: 0.85rem;
     font-weight: 700;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+}
+.Probut{
+    width: 38%;
+    padding: 1.25rem 1.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* Navbar */
+.navbar{
+    color: white;
+    font-family: 'Merriweather', serif;
+}
 
 .navbar .nav-link{
     color:black;
@@ -56,12 +60,22 @@ box-sizing: border-box;}
     background-color:black;
 	border-bottom-color:yellow;
 }
+
+
+/* About */
+#About{
+    height: 100%;
+    
+}
+
+
 a:hover {
     color: var(--bs-link-hover-color);
   }
   .img-fluid {
-    max-width: 70%;
-    height: auto;
+    max-width: 80%;
+    height: 80%;
+    border-radius: 100%;
   }
 
 h1{
