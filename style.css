@@ -67,11 +67,9 @@ box-sizing: border-box;}
     height: 100%;
     
 }
-
-
-a:hover {
-    color: var(--bs-link-hover-color);
-  }
+a{
+    text-decoration: none;
+}
   .img-fluid {
     max-width: 80%;
     height: 80%;
